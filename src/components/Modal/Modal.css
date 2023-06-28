@@ -14,12 +14,12 @@
 }
 
 .ModalOpen {
-  /* animation: openModal 0.4s ease-out forwards; */
+  animation: openModal 0.4s ease-out forwards;
 }
 
 .ModalClosed {
-  /* display: none; */
-  /* animation: closeModal 2.4s ease-out forwards; */
+  display: none;
+  animation: closeModal 2.4s ease-out forwards;
 }
 
 .fade-slide-enter-active {
@@ -27,7 +27,7 @@
 }
 
 .fade-slide-exit-active {
-  animation: closeModal 2.4s ease-out forwards;
+  animation: closeModal 1s ease-out forwards;
 }
 
 @keyframes openModal {
